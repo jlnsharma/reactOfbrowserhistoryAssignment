@@ -1,0 +1,49 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.time {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #64748b;
+  margin-right: 30px;
+}
+.logoImg {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.titleEle {
+  font-weight: bold;
+  font-size: 13px;
+  color: #475569;
+  margin-right: 10px;
+}
+.domainEle {
+  font-weight: 500;
+  font-size: 12px;
+  color: #64748b;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.deleteImg {
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+}
+.btn {
+  background-color: transparent;
+  border: transparent solid 1px;
+}
